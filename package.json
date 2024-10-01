@@ -2,6 +2,14 @@
   "name": "lit",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node16-linux-x64",
+      "node16-macos-x64",
+      "node16-win-x64"
+    ]
+  },
   "scripts": {
     "start": "node index.js"
   },
